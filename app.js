@@ -37,8 +37,9 @@ var playGround = {
 };
 
 function eachInterval(n) {
-    if((playGround.frameNumber/n) % 1 == 0) return true;
-    return false;
+  if((playGround.frameNumber/n) % 1 == 0) return true;
+
+  return false;
 }
 
 //draw a square frame on the canvas
@@ -74,9 +75,11 @@ function gameComponent(width, height, color, x, y, type) {
     var othertop = otherobj.y;
     var otherbottom = otherobj.y + (otherobj.height);
     var crash = true;
+
     if ((mybottom < othertop) || (mytop > otherbottom) || (myright < otherleft) || (myleft > otherright)) {
       crash = false;
     }
+
     return crash;
   }
 
