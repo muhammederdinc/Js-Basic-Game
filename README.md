@@ -1,1 +1,2 @@
-## Projenin demosunu görüntülemek için [tıklayınız.](https://muhammederdinc.github.io/Js-Basic-Game/)
+# Js Basic Game
+[Click to view the demo.](https://muhammederdinc.github.io/photo-editing-with-only-css-and-javascript/)
